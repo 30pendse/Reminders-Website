@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PlanIt</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id = 'titlething'>PlanIt!</h1>
+        <h3 id = 'headingthing'>A free, online planning sheet that you can use anywhere!</h3>
+        <button id = 'startbutton'> Click here to start</button>
+        <div id = 'todoscontainer'>
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PlanIt!</h1>
+            <h2> _______________________________________________________________________________________</h2>
+            <div id ='todoform'>
+                
+            </div>
+            <button id = 'addnew'>
+                Add a new reminder
+            </button>
+            <div id = 'example'>
+                <input type = 'checkbox'>
+                <input type = 'text'>
+                <button onclick = "this.parentElement.style.display = 'none';" class = 'deletebutton'>
+                    Cancel reminder
+                </button>
+            </div>
+        </div>
+    <script src="todo.js" async defer></script>
+    </body>
+</html>
